@@ -58,6 +58,7 @@ nav{
 
 .dropdown-container{
     display: none;
+    /*opacity: 0;*/
     background-color: #262626;
     padding-left: 8px;
     transition: all .5s;
@@ -73,7 +74,8 @@ nav{
 }
 
 .toggle-btn{
-    position: absolute;
+    position: fixed;
+    z-index: 1;
     left: 15px;
     top: 20px;
     margin-top: 50px;
@@ -89,7 +91,26 @@ nav{
     display: block;
     width: 30px;
     height: 5px;
-    background-color: #151719;
     margin: 5px 0;
     border-radius: 5px;
+}
+
+.black-ish{
+    background-color: #151719;
+}
+
+.white{
+    background-color: #fff;
+}
+
+.image-overlay{
+    position: absolute;
+    display:block;
+    width:100%;
+    height:100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
 }

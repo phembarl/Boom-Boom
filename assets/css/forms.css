@@ -133,3 +133,14 @@
 	font-size: .9rem;
 	text-decoration: underline;
 }
+
+@media (max-width: 1024px){
+	#form1, #form2{
+		float: none;
+		margin: auto;
+	}
+
+	#user-form, #user-form2{
+		padding-top: 70px;
+	}
+}

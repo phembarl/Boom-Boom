@@ -11,7 +11,7 @@ var links = document.querySelectorAll(".nav-link");
 		}
 		else{
 			navbar.style.background = "white";
-			brand.style.color = "#000"
+			brand.style.color = "#000";
 			navbar.classList.remove("navbar-dark");
 			navbar.classList.add("navbar-light");
 		}

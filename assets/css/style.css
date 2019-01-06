@@ -7,12 +7,17 @@ body{
 	color: rgba(255, 255, 255, .5);
 }
 
-.navbar-dark .navbar-nav .nav-link{
-	/*font-size: 1.2rem;*/
+#brand2{
+	font-size: 1.2rem;
 }
 
-.navbar-light .navbar-nav .nav-link{
-	/*font-size: 1.2rem*/
+.heading{
+	text-align: center;
+}
+
+.subheading{
+	margin-top: 50px;
+	font-weight: bolder;
 }
 
 nav{
@@ -48,6 +53,10 @@ nav{
 	background-color: rgba(0,0,0,0.3);
 }
 
+#bout{
+	font-size: 1.3rem;
+}
+
 .visible{
 	position: relative;
 	z-index: 1;
@@ -64,7 +73,6 @@ nav{
 
 .journey{
 	display: inline-block;
-	/*color: #fff;*/
 	padding: 25px;
 	font-size: 1.2rem;
 	text-align: justify;
@@ -93,7 +101,7 @@ nav{
 	color:white;
 	margin-top: 35px;
 	outline: none;
-	border: 1.5px solid #000;
+	border: 1.5px solid #fff;
 }
 
 #firstbtn:focus, #firstbtn.focus{
@@ -109,16 +117,12 @@ nav{
 
 #drive{
 	margin-top: 50px;
-	/*border-radius: 10px;*/
 }
 
 #merry{
 	text-align: center;
 	font-size: 3rem;
-	/*color: #777;*/
-	/*background-color: #f2f2f2;*/
 	padding: 70px;
-	/*padding-bottom: */
 }
 
 #how{
@@ -133,8 +137,6 @@ nav{
 
 .img-thumbnail{
 	border: none;
-	/*border-radius: 10px;*/
-	/*padding: 0;*/
 }
 
 #special{
@@ -150,6 +152,10 @@ nav{
 	background:#f2f2f2;
 	padding-bottom:50px;
 	position: relative;
+}
+
+.bottom{
+	margin-top: 50px;
 }
 
 .icon{

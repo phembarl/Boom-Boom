@@ -11,9 +11,9 @@
 </head>
 <body>
 	<div>
-		<nav class="navbar navbar-expand-md navbar-light bg-light" id="nav">
+		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" id="nav">
 			<div class="container">
-				<a href="#section1" class="navbar-brand navigate" id="brand">ComURide</a>
+				<a href="index.html" class="navbar-brand navigate" id="brand">ComURide</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-demo">
 				    <span class="navbar-toggler-icon"></span>
 				</button>
@@ -36,25 +36,28 @@
 				Services 			  
 			</button>
 			 <div class="dropdown-container">
-			   <a href="#">Movies</a>
+			   <a href="#">Fuel</a>
 			   <a href="#">Food</a>
 			   <a href="#">Tow</a>
-			   <a href="#">Fuel</a>
-			   <a href="#">Airtime</a>
-			   <a href="#">Data</a>
+			   <a href="#">Movies</a>
 			   <a href="#">Insurance</a>
-			   <a href="#">Finance</a>
-			   <a href="#">Car Registration</a>
 			 </div>
 			<a href="#">Blog</a>
-			<a href="#">Account</a>
+			<button class="dropdown-btn">
+				My Account 			  
+			</button>
+			<div class="dropdown-container">
+			   <a href="profile.html">Profile</a>
+			   <a href="profile2.html">Profile 2</a>
+			   <a href="bank.html">Point Bank</a>
+			 </div>
 			<a href="#">Contact Us</a>
 		</div>
 
 		<div class="toggle-btn" onclick="toggleSidebar()">
-			<span></span>
-			<span></span>
-			<span></span>
+			<span class="toggler black-ish"></span>
+			<span class="toggler black-ish"></span>
+			<span class="toggler black-ish"></span>
 		</div>
 
 		<div>
@@ -62,6 +65,8 @@
 		</div>
 
 	</div>
+
+	<div class="overlay"></div>
 
 
 	<script type="text/javascript" src="assets/js/jquery.js"></script>
